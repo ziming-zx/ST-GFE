@@ -42,12 +42,13 @@ Missing values within this \( 2T \)-length sequence are padded with a special pl
 ### Real-Time Updating
 
 To enable real-time updating in the MED architecture, the training data is segmented into **input–target pairs**:  
-
-() → (x₁, x₂, ..., x_T)
-(x₁) → (x₂, x₃, ..., x_T)
-(x₁, x₂) → (x₃, x₄, ..., x_T)
+ `
+() → (x_1, x_1, ..., x_T)
+(x_1) → (x_2, x_3, ..., x_T)
+(x_1, x_2) → (x_3, x_4, ..., x_T)
 ...
-(x₁, x₂, ..., x_{T-1}) → (x_T)
+(x_1, x_2, ..., x_{T-1}) → (x_T)
+`
 
 At step 0, when no production history \( U \) is available, \( x_0 \) is used to initiate predictions. At this point only static and drilling parameters (\( D \) and \( S \)) are valid. Since these segments vary in length, sequences are padded to a uniform size and masked accordingly. (*See accompanying figure for details.*)
 
