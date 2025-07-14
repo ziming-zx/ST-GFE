@@ -98,7 +98,8 @@ We present predicted production curves for 16 randomly selected wells using the 
 <img width="932" height="620" alt="image" src="https://github.com/user-attachments/assets/901b1ac2-2b40-4d74-90fb-b1f0032abc69" />
 
 #### Approach 2 results:
-<img width="972" height="647" alt="image" src="https://github.com/user-attachments/assets/8e3e5bfe-515b-48cd-812c-8d23a49116f2" />
+<img width="911" height="606" alt="image" src="https://github.com/user-attachments/assets/0cc6bd94-437d-4c20-b593-ecef0315aceb" />
+
 
 
 
